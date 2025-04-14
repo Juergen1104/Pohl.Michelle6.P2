@@ -1,0 +1,81 @@
+olympic editions:
+Winter Olympics
+Summer Olympics
+Intercalated
+Equestrian
+
+years:
+1896
+1900
+1904
+1908
+1912
+
+editionId: 59
+
+olympic sports:
+Archery
+Artistic Gymnastics
+Artistic Swimming
+Athletics
+Badminton
+
+olympic events:
+Doubles, Men
+Doubles, Mixed
+Doubles, Women
+Singles, Men
+Singles, Women
+
+olympic results:
+1	Serena Williams	United States
+2	Mariya Sharapova	Russian Federation
+3	Vika Azarenka	Belarus
+4	Mariya Kirilenko	Russian Federation
+5	Angelique Kerber	Germany
+
+countries:
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+
+olympic sports:
+Alpine Skiing
+Alpinism
+Archery
+Art Competitions
+Artistic Gymnastics
+
+olympic athletes:
+Summer Olympics 2020 Isabel Gose 2002-05-09 0.0 0 
+Summer Olympics 2020 Sarah Köhler 1994-06-20 179.0 67 
+Summer Olympics 2020 Isabel Gose 2002-05-09 0.0 0 
+Summer Olympics 2020 Isabel Gose 2002-05-09 0.0 0 
+Summer Olympics 2020 Leonie Kullmann 1999-08-26 175.0 62 
+
+venue:
+Athina
+
+oldest athlete:
+Charles Waldstein	1856-03-30
+
+youngest athlete:
+Dimitrios Loundras	1885-09-06
+
+female participants
+2
+
+male participants
+241
+
+medals:
+62 46 39 
+
+medal tally:
+United States	1195	969	845
+Soviet Union	473	376	355
+Germany	355	377	366
+Great Britain	312	339	337
+France	287	308	356
