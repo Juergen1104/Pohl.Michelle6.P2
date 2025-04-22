@@ -78,13 +78,7 @@ public class FillDatabase extends Database {
 
           pstmAthletes.addBatch();
       }
-
       pstmAthletes.executeBatch();
-
-
-
-
-
   }
 
   /**

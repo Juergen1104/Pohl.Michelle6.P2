@@ -465,7 +465,7 @@ public class FilterDatabase extends Database {
                 while (rs.next()) {
                     String medal = rs.getString("medal");
                     String name = rs.getString("name");
-                    String birthdate = rs.getString("birthdate");
+                    String birthdate = rs.getString("born");
                     float height = rs.getFloat("height");
                     //Float height = rs.getString("height");
                     int weight = rs.getInt("weight");
@@ -518,8 +518,8 @@ public class FilterDatabase extends Database {
         String[] athlete = new String[2];
         String comparison = oldest ? "MIN" : "MAX";
 
-        String sql = "SELECT name, birthdate FROM athletes WHERE birthdate = (" +
-                "SELECT " + comparison + "(a.birthdate) " +
+        String sql = "SELECT name, born FROM athletes WHERE born = (" +
+                "SELECT " + comparison + "(a.born) " +
                 "FROM event_details ed " +
                 "JOIN athletes a ON ed.athlete_id = a.athlete_id " +
                 "WHERE ed.edition_id = ?" +
@@ -531,7 +531,7 @@ public class FilterDatabase extends Database {
             try (ResultSet rs = pstmt.executeQuery()) {
                 if (rs.next()) {
                     athlete[0] = rs.getString("name");
-                    athlete[1] = rs.getString("birthdate");
+                    athlete[1] = rs.getString("born");
                 }
             }
         } catch (SQLException e) {
